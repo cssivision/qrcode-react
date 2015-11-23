@@ -1,6 +1,6 @@
 {
   "name": "qrcode-react",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React component to generate QRCode with logo",
   "main": "index.js",
   "scripts": {

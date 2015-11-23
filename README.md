@@ -29,6 +29,6 @@ prop      | type                 | default value
 `size`    | `number`             | `128`
 `bgColor` | `string` (CSS color) | `"#FFFFFF"`
 `fgColor` | `string` (CSS color) | `"#000000"`
-`logo'    | `string` (URL / PATH)|
+`logo`    | `string` (URL / PATH)|
 
 <img src="qrcode.png" height="200" width="200">
