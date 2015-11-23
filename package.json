@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/cssivision/qrcode-react/issues"
   },
-  "homepage": "https://github.com/cssivision/qrcode-react#readme"
+  "homepage": "https://github.com/cssivision/qrcode-react#readme",
+  "peerDependencies": {
+    "react": "0.12 - 0.14"
+  },
+  "dependencies": {
+    "qr.js": "0.0.0"
+  }
 }
