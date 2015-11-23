@@ -31,4 +31,4 @@ prop      | type                 | default value
 `fgColor` | `string` (CSS color) | `"#000000"`
 `logo'    | `string` (URL / PATH)|
 
-<img src="qrcode.png" height="256" width="256">
+<img src="qrcode.png" height="200" width="200">
