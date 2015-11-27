@@ -25,8 +25,8 @@ ReactDOM.render(
 ## Available Props
 
 prop      | type                 | default value
-----------|----------------------|--------------
-`value`   | `string`             |
+----------|----------------------|-----------------------------------
+`value`   | `string`             | `http://facebook.github.io/react/`
 `size`    | `number`             | `128`
 `bgColor` | `string` (CSS color) | `"#FFFFFF"`
 `fgColor` | `string` (CSS color) | `"#000000"`
