@@ -1,0 +1,23 @@
+#demo {
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    display: inline-block;
+    text-align: center;
+    width: 500px;
+}
+
+.application .qrcode-input {
+    display: inline-block;
+    margin-bottom: 50px;
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 10px;
+    border: 2px solid indigo;
+}
+
