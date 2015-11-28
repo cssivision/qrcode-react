@@ -5,7 +5,7 @@ var ReactDOM = require('react-dom');
 var App = React.createClass({
     getInitialState: function() {
         return {
-            text: 'http://facebook.github.io/react/'
+            text: ''
         }
     },
 
