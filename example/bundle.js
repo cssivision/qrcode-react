@@ -118,9 +118,10 @@ var App = React.createClass({
                 value: this.state.text,
                 placeholder: 'input string' }),
             React.createElement(QRCode, { className: 'qrcode', value: this.state.text,
-                size: 300, fgColor: 'purple',
+                size: 300,
+                fgColor: 'purple',
                 bgColor: 'white',
-                logo: './seven.jpg' })
+                logo: 'http://hdwallpapersfit.com/wp-content/uploads/2015/03/sexy-nami-wallpaper.jpg' })
         );
     }
 });
@@ -232,9 +233,13 @@ var QRCode = React.createClass({
       var image = document.createElement('img');
       image.src = this.props.logo;
       image.onload = function () {
-        var dx = size / 2 - size * 0.1;
-        var dwidth = size * 0.2;
-        ctx.drawImage(image, dx, dx, dwidth, dwidth);
+        var dwidth = size * 0.25;
+        var dx = (size - dwidth) / 2;
+        var dheight = image.height / image.width * dwidth;
+        var dy = (size - dheight) / 2;
+        image.width = dwidth;
+        image.height = dheight;
+        ctx.drawImage(image, dx, dy, dwidth, dheight);
       };
     }
   },

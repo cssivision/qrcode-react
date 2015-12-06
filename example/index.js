@@ -21,9 +21,10 @@ var App = React.createClass({
                     value={this.state.text}
                     placeholder="input string"/>
                 <QRCode className='qrcode' value={this.state.text}
-                    size={300} fgColor='purple'
+                    size={300}
+                    fgColor='purple'
                     bgColor='white'
-                    logo='./seven.jpg'/>
+                    logo='http://hdwallpapersfit.com/wp-content/uploads/2015/03/sexy-nami-wallpaper.jpg'/>
             </div>
         );
     }

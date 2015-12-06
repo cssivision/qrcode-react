@@ -4,7 +4,8 @@
   "description": "React component to generate QRCode with logo",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -t [ babelify --presets [ react ] ] example/index.js -o example/bundle.js"
   },
   "repository": {
     "type": "git",
