@@ -24,12 +24,14 @@ ReactDOM.render(
 
 ## Available Props
 
-prop      | type                 | default value
-----------|----------------------|-----------------------------------
-`value`   | `string`             | `http://facebook.github.io/react/`
-`size`    | `number`             | `128`
-`bgColor` | `string` (CSS color) | `"#FFFFFF"`
-`fgColor` | `string` (CSS color) | `"#000000"`
-`logo`    | `string` (URL / PATH)|
+prop         | type                 | default value
+-------------|----------------------|-----------------------------------
+`value`      | `string`             | `http://facebook.github.io/react/`
+`size`       | `number`             | `128`
+`bgColor`    | `string` (CSS color) | `"#FFFFFF"`
+`fgColor`    | `string` (CSS color) | `"#000000"`
+`logo`       | `string` (URL / PATH)|
+`logoWidth`  | `number`             | `size * 0.2`
+`logoHeight` | `number`             | Proportional scaling to `logoWidth`
 
 <img src="qrcode.png" height="256" width="256">
