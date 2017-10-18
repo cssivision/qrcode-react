@@ -1,7 +1,7 @@
 {
-  "name": "qrcode-react",
+  "name": "qrcode-react16",
   "version": "0.1.14",
-  "description": "React component to generate QRCode with logo",
+  "description": "Supports React 16: React component to generate QRCode with logo",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,11 +21,13 @@
   "bugs": {
     "url": "https://github.com/cssivision/qrcode-react/issues"
   },
-  "homepage": "https://github.com/cssivision/qrcode-react#readme",
+  "homepage": "https://github.com/glcheetham/qrcode-react#readme",
   "peerDependencies": {
     "react": "0.12 - 15.5"
   },
   "dependencies": {
+    "create-react-class": "^15.6.2",
+    "prop-types": "^15.6.0",
     "qr.js": "0.0.0"
   },
   "devDependencies": {
