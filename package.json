@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/cssivision/qrcode-react#readme",
   "peerDependencies": {
-    "react": "0.12 - 15.6"
+    "react": "0.12 - 16.2"
   },
   "dependencies": {
     "qr.js": "0.0.0"
